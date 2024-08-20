@@ -91,6 +91,7 @@ button:hover {
 .dropdown:hover .dropdown-content {
   display: inline-block;
 }
+
 @media (orientation: landscape){
 	.pad {
 		margin-top: 2.5vw;
@@ -126,6 +127,7 @@ button:hover {
 	 	background-color: #111111;
 		color: #EEEEEE;
 	}
+
 }
 @media (orientation: portrait){
 	.pad {
@@ -158,4 +160,5 @@ button:hover {
  	#Navnottop {
  		display: none;
 	}
+
 }
