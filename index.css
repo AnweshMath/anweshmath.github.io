@@ -24,6 +24,16 @@ margin-right: 5vw;
   border: 0;
 	float: left;
 }
+.c {
+	margin: 0;
+  padding: 0;
+  border: 0;
+	text-align: center;
+	vertical-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 .r {
 	margin: 0;
   padding: 0;
@@ -50,9 +60,11 @@ button {
 	margin: 0;
   padding: 0;
 	margin: 0;
+	display: block;
+}
+nav div div button, nav button {
 	color: #F1F2F3;
 	background-color: #345678;
-	display: block;
 }
 button:hover {
 	cursor: pointer;
@@ -91,6 +103,24 @@ button:hover {
 .dropdown:hover .dropdown-content {
   display: inline-block;
 }
+#level {
+	background-color: #102938;
+	color: #4756AF;
+}
+.levelbutton {
+	display: inline-block;
+	background-color: #AAAAAA;
+	color: #555555;
+}
+#Units {
+	background-color: #192038;
+	color: #AFBECD;
+}
+.chapter {
+	display: inline-block;
+	background-color: #222222;
+	color: #DDDDDD;
+}
 
 @media (orientation: landscape){
 	.pad {
@@ -114,7 +144,7 @@ button:hover {
 	#logo {
 		width: 5vw;
 	}
-	button {
+	nav div div button, nav button {
 		font-size: 2.5vw;
 	}
 	#Navtop {
@@ -126,6 +156,18 @@ button:hover {
 	 	font-size: 2.5vw;
 	 	background-color: #111111;
 		color: #EEEEEE;
+	}
+	#level {
+		font-size: 10vw;
+	}
+	.levelbutton {
+		font-size: 3vw;
+	}
+	.unit {
+		font-size: 5vw;
+	}
+	.chapter {
+		font-size: 2.5vw;
 	}
 
 }
@@ -149,16 +191,28 @@ button:hover {
 		margin-bottom: 5vw;
 	}
 	#logo {
-		width: 10vw;
+		width: 15vw;
 	}
-	button {
-		font-size: 3vw;
+	nav div div button, nav button {
+		font-size: 6vw;
 	}
 	#Navtop {
  		display: none;
   }
  	#Navnottop {
  		display: none;
+	}
+	#level {
+		font-size: 20vw;
+	}
+	.levelbutton {
+		font-size: 7vw;
+	}
+	.unit {
+		font-size: 7.5vw;
+	}
+	.chapter {
+		font-size: 5vw;
 	}
 
 }
