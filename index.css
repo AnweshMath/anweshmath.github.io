@@ -121,7 +121,14 @@ button:hover {
 	background-color: #222222;
 	color: #DDDDDD;
 }
-
+.grade {
+	background-color: transparent;
+	color: #ABF385;
+}
+.chap {
+	background-color: transparent;
+	color: #583FBA;
+}
 @media (orientation: landscape){
 	.pad {
 		margin-top: 2.5vw;
@@ -169,7 +176,12 @@ button:hover {
 	.chapter {
 		font-size: 2.5vw;
 	}
-
+	.grade {
+		font-size: 8.5vw;
+	}
+	.chap {
+		font-size: 4vw;
+	}
 }
 @media (orientation: portrait){
 	.pad {
@@ -214,5 +226,10 @@ button:hover {
 	.chapter {
 		font-size: 5vw;
 	}
-
+	.grade {
+		font-size: 10vw;
+	}
+	.chap {
+		font-size: 4.5vw;
+	}
 }
