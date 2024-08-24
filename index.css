@@ -1,33 +1,33 @@
 body {
- background-color: #424242;
- font-family: Advent Pro;
- margin: 0;
- padding: 0;
- border: 0;
+	background-color: #424242;
+	font-family: Advent Pro;
+	margin: 0;
+	padding: 0;
+	border: 0;
 }
 /*
-Use for padding :
-Landscape :
-margin-top: 2.5vw;
-margin-bottom: 2.5vw;
-margin-left: 2.5vw;
-margin-right: 2.5vw;
-Portrait : 
-margin-top: 5vw;
-margin-bottom: 5vw;
-margin-left: 5vw;
-margin-right: 5vw;
+	Use for padding :
+	Landscape :
+	margin-top: 2.5vw;
+	margin-bottom: 2.5vw;
+	margin-left: 2.5vw;
+	margin-right: 2.5vw;
+	Portrait : 
+	margin-top: 5vw;
+	margin-bottom: 5vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
 */
 .l {
 	margin: 0;
-  padding: 0;
-  border: 0;
+	padding: 0;
+	border: 0;
 	float: left;
 }
 .c {
 	margin: 0;
-  padding: 0;
-  border: 0;
+	padding: 0;
+	border: 0;
 	text-align: center;
 	vertical-align: center;
 	display: block;
@@ -36,29 +36,29 @@ margin-right: 5vw;
 }
 .r {
 	margin: 0;
-  padding: 0;
-  border: 0;
+	padding: 0;
+	border: 0;
 	float: right;
 }
 #logo {
 	height: auto;
 }
 #Nav {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  background-color: transparent;
-  top: 0;
-  position: static;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: transparent;
+	top: 0;
+	position: static;
 }
 img {
 	margin: 0;
-  padding: 0;
+	padding: 0;
 	margin: 0;
 }
 button {
 	margin: 0;
-  padding: 0;
+	padding: 0;
 	margin: 0;
 	display: block;
 }
@@ -70,21 +70,21 @@ button:hover {
 	cursor: pointer;
 }
 .dropbtn {
-  display: inline-block;
+	display: inline-block;
 }
 button:hover {
 	background-color: #888888;
 }
 .dropdown:hover {
-  background-color: transparent;
+	background-color: transparent;
 }
 .dropdown {
-  display: inline-block;
+	display: inline-block;
 }
 .dropdown-content {
 	display: none;
-  position: absolute;
-  background-color: transparent;
+	position: absolute;
+	background-color: transparent;
 }
 #colon {
 	display: none;
@@ -94,14 +94,14 @@ button:hover {
 }
 .nus {
 	margin: 0;
-  padding: 0;
-  border: 0;
+	padding: 0;
+	border: 0;
 }
 .dropdown-content button:hover {
 	background-color: #888888;
 }
 .dropdown:hover .dropdown-content {
-  display: inline-block;
+	display: inline-block;
 }
 #level {
 	background-color: #102938;
@@ -129,7 +129,7 @@ button:hover {
 	background-color: transparent;
 	color: #583FBA;
 }
-@media (orientation: landscape){
+@media (orientation: landscape) {
 	.pad {
 		margin-top: 2.5vw;
 		margin-bottom: 2.5vw;
@@ -183,7 +183,7 @@ button:hover {
 		font-size: 4vw;
 	}
 }
-@media (orientation: portrait){
+@media (orientation: portrait) {
 	.pad {
 		margin-top: 5vw;
 		margin-bottom: 5vw;
